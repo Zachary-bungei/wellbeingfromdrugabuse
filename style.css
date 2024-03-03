@@ -1,0 +1,646 @@
+
+#counimg{
+	width: 80%;
+	margin: 10%;
+	height: 290px;
+	display: felx;
+	border-radius: 4px;
+}
+#printButton{
+	font-size: 19px;
+	border-radius: 3px;
+	color: blue;
+}
+#sendcomment{
+	text-decoration: none;
+	font-size: 19px;
+	background: blue;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 3px;
+	color: white;
+}
+@media screen and (max-width: 2000px){
+*{
+}
+body{
+background-image: url("IMG_7599.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+header{
+	background-color: #AA8059;
+	position: fixed;
+	width: 95%;
+	height:67px;
+	margin-top: -2px;
+	text-align: center;
+	outline: 1px solid black;
+	padding: 10px;
+}
+
+header img{
+	height: 65px;
+	width: 65px;
+	margin-left: 12px;
+	border-radius: 40px;
+	display: flex;
+}
+header h4{
+	font-size: 23px;
+	background: indigo;
+	border: 2px;
+	padding: 4px;
+	margin-bottom: 3px;
+	width: 196px;
+	margin-top: -59px;
+	margin-left: 80px;
+	border-radius: 2px;
+}
+
+header a{
+	
+	font-size: 23px;
+	margin-left: 45px;
+	background: lightblue;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+	outline: 0.3px solid black;
+}
+header icon{
+	background: #3682E23B;
+	font-size: 34px;
+	border-radius: 2px;
+	outline: 1px solid black;
+}
+header icon:hover{
+	background: rgba(89, 51, 158, 1);
+}
+#homelink{
+	background: yellow;
+}
+#contactlinl{
+	background: yellow;
+}
+header{
+	height: 130px;
+}
+#resourcelink{
+	background: yellow;
+}
+#content{
+	background: ghostwhite;
+	max-width: 780px;
+	min-width: 500px;
+	padding: 23px;
+	box-shadow: 0 0 2px solid black;
+	border-radius: 4px;
+	border: 1px solid darkgreen;
+	text-align: left;
+	margin-top: -4px;
+	margin-left: 120px;
+	margin-right: 98px;
+}
+
+footer{
+	background-color: hotpink;
+	height: 90px;
+	width: 97%;
+	text-align: center;
+	outline: 1px solid black;
+	padding-top: 14px;
+	
+}
+footer button[type="submit"], #calllink{
+	background: sandybrown;
+	text-decoration: none;
+	outline: 1px solid black;
+	border-radius: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 120px;
+	font-size: 23px;
+	height: 34px;
+	min-width: 70px;
+	margin-left: 13px;
+}
+#calllink{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#content #imgfirst{
+	height: 846px;
+	max-width: 80%;
+	min-width: 400px;
+	margin-left: 190px;
+	margin-right: 180px;
+	place-self: center;
+	margin-top: 10px;
+	border-radius: 9px;
+	outline: 2px solid darkgreen;
+}
+#reloader{
+	background-color: green;
+	height: 157px;
+	width: 50%;
+	margin-left: 120px;
+	margin-right: 90px;
+}
+#commentform{
+	background-color: lightblue;
+	padding: 14px;
+	margin-left: 7px;
+	width: 280px;
+	
+	height: 350px;
+	border: 1px solid black;
+	border-radius: 4px;
+	
+}
+#commentform h6{
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 8px;
+}
+#commentform label{
+	font-size: 19px;
+	margin-top: 9px;
+}
+#commentform label[for="email"]{
+	margin-top: -4px;
+}
+#commentform input{
+	height: 23px;
+	width: 260px;
+	border: 1px solid green;
+	outline: none;
+	font-size: 19px;
+	padding-left: 4px;
+}
+#commentform input:focus{
+	border: 3px solid green;
+}
+#commentform textarea{
+	outline: none;
+	border: 1px solid green;
+	width: 270px ;
+	height: 120px;
+	font-size: 19px;
+	padding: 3px;
+}
+#commentform textarea:focus{
+	border: 3px solid green;
+} 
+#commentform button{
+	color: white;
+	background: blue;
+	font-size: 20px;
+	outline: nine;
+	border: 1px solid indigo;
+	border-radius: 2px;
+}
+#content marquee{
+	font-size: 29px;
+	padding-right: 40px;
+	padding: 5px;
+	width: 98%;
+	text-align: center;
+	background: green;
+	height: 40px;
+	border-radius: 2px;
+	direction: alternate;
+
+}
+#content em{
+	font-size: 17px;
+	color: darkblue;
+	
+}
+#content h6{
+	font-size: 21px;
+	color: indigo;
+	font-style: italic;
+	text-decoration:  overline;
+}
+#content #intro{
+	font-size: 18px;
+}
+#content h5{
+	font-size: 20px;
+	font-weight: normal;
+	color: #091166;
+	padding-left: 43px;
+	text-shadow: 1px 1px  green;
+}
+#content blockquote{
+	font-size: 22px;
+}
+#content #intro #here{
+	color: deepskyblue;
+	text-decoration: none;
+}
+#content #vision{
+	width: 95%;
+	background: red;
+	outline: 1px solid green;
+}
+#panel{
+	background: #7E8EC285;
+	margin: 23px;
+	outline: 1px solid green;
+	padding: 8px;
+	height: 230px;
+	font-size: 27px;
+	text-align: center;
+	border-radius: 4px;
+	max-width: 207px;
+}
+#panel input{
+	color: blue;
+	height: 40px;
+	width: 40px;
+	border-radius: 34px;
+	font-size: 9px;
+	outline: 1px solid royalblue;
+	border: none;
+	background: wheat;
+}
+#panel input:focus{
+	width: 48%;
+	border-radius: 3px;
+	font-size: 18px;
+	position: fixed;
+	margin-top: -242px;
+	place-self: center;
+}
+#panel #searchbutton{
+	font-size: 19px;
+	padding: 6px;
+	border-radius: 6px;
+	border: none;
+	display: block;
+	background: #40528FD4;
+	
+}
+#panel #searchbutton:focus{
+	width: 80%;
+	border-radius: 3px;
+}
+#panel button[type="save"]{
+	background: lightcyan;
+	font-size: 19px;
+	padding: 4px;
+	border-radius: 4px;
+}
+#content #vision{
+	outline: 2px solid #C2CEF7BD;
+	padding: 12px;
+	background: #C2CEF7BD;
+	border-radius: 4px;
+	padding-bottom: -90px;
+}
+#vision h6{
+	margin-top: -7px;
+	text-decoration: none;
+	color: darkblue;
+}
+#vision blockquote{
+	font-size: 21px;
+}
+#contactable tc{
+	outline-left: 1.5px solid green;
+}
+#content #contactdetails{
+	background: #779594A6;
+	margin-bottom: -1px;
+	margin-top: 9px;
+	margin-left: -1px;
+	margin-right: -2px;
+	
+	border-radius: 2px;
+	font-size: 19px;
+	padding: 12px;
+}
+#content #effectimg{
+	background-size: cover;
+	width: 80%;
+	margin: 20px;
+	
+}
+#comtent #counimg{
+	width: 50%;
+	margin: 20px;
+}
+}
+@media screen and (max-width: 800px){
+body{
+background-image: url("IMG_7599.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+header{
+	background-color: #AA8059;
+	position: fixed;
+	width: 100%;
+	height:155px;
+	margin-top: -2px;
+	text-align: center;
+	outline: 1px solid black;
+	padding: 4px;
+}
+
+header img{
+	height: 60px;
+	width: 60px;
+	margin-left: 5px;
+	border-radius: 40px;
+	display: flex;
+}
+header h4{
+	font-size: 25px;
+	background: indigo;
+	color: yellowgreen;
+	border: 1px;
+	padding: 3px;
+	margin-bottom: 3px;
+	width: 226px;
+	margin-top: -59px;
+	margin-left: 70px;
+	border-radius: 4px;
+}
+header a{
+	font-size: 20px;
+	margin-top: 6px;
+	margin-right: 45px;
+	background: lightblue;
+	border-radius: 3px;
+	padding-right: 8px;
+	padding-left: 9px;
+	text-decoration: none;
+	outline: 0.3px solid black;
+}
+header icon{
+	background: #3682E23B;
+	font-size: 24px;
+	border-radius: 2px;
+	color: white;
+	height: 24px;
+	outline: 1px solid black;
+}
+header icon:hover{
+	background: rgba(89, 51, 158, 1);
+}
+#homelink{
+	background: yellow;
+}
+#contactlinl{
+	background: yellow;
+}
+#resourcelink{
+	background: yellow;
+}
+#content{
+	background: ghostwhite;
+	width: 98%;
+	padding: 23px;
+	box-shadow: 0 0 2px solid black;
+	border-radius: 4px;
+	border: 1px solid darkgreen;
+	text-align: left;
+	margin-top: -4px;
+}
+
+footer{
+	background-color: hotpink;
+	height: 90px;
+	width: 97%;
+	text-align: center;
+	outline: 1px solid black;
+	padding-top: 14px;
+	
+}
+footer button[type="submit"], #calllink{
+	background: sandybrown;
+	text-decoration: none;
+	outline: 1px solid black;
+	border-radius: 2px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 120px;
+	font-size: 23px;
+	height: 34px;
+	min-width: 70px;
+	margin-left: 13px;
+}
+#calllink{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#content img{
+	height: 846px;
+	width: 70%;
+	place-self: center;
+	margin-top: 10px;
+	border-radius: 9px;
+	outline: 2px solid darkgreen;
+}
+#reloader{
+	background-color: green;
+	height: 157px;
+	width: 50%;
+	margin-left: 120px;
+	margin-right: 90px;
+}
+#commentform{
+	background-color: lightblue;
+	padding: 14px;
+	margin-left: 7px;
+	width: 280px;
+	
+	height: 350px;
+	border: 1px solid black;
+	border-radius: 4px;
+	
+}
+#commentform h6{
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 8px;
+}
+#commentform label{
+	font-size: 19px;
+	margin-top: 9px;
+}
+#commentform label[for="email"]{
+	margin-top: -4px;
+}
+#commentform input{
+	height: 23px;
+	width: 260px;
+	border: 1px solid green;
+	outline: none;
+	font-size: 19px;
+	padding-left: 4px;
+}
+#commentform input:focus{
+	border: 3px solid green;
+}
+#commentform textarea{
+	outline: none;
+	border: 1px solid green;
+	width: 270px ;
+	height: 120px;
+	font-size: 19px;
+	padding: 3px;
+}
+#commentform textarea:focus{
+	border: 3px solid green;
+} 
+#commentform button{
+	color: white;
+	background: blue;
+	font-size: 20px;
+	outline: nine;
+	border: 1px solid indigo;
+	border-radius: 2px;
+}
+#content marquee{
+	font-size: 29px;
+	padding-right: 40px;
+	padding: 5px;
+	width: 98%;
+	text-align: center;
+	background: green;
+	height: 40px;
+	border-radius: 2px;
+	direction: alternate;
+
+}
+#content em{
+	font-size: 17px;
+	color: darkblue;
+	
+}
+#content h6{
+	font-size: 21px;
+	color: indigo;
+	font-style: italic;
+	text-decoration:  overline;
+}
+#content #intro{
+	font-size: 18px;
+}
+#content h5{
+	font-size: 20px;
+	font-weight: normal;
+	color: #091166;
+	padding-left: 43px;
+	text-shadow: 1px 1px  green;
+}
+#content blockquote{
+	font-size: 22px;
+}
+#content #intro #here{
+	color: deepskyblue;
+	text-decoration: none;
+}
+#content #vision{
+	width: 95%;
+	background: red;
+	outline: 1px solid green;
+}
+#panel{
+	background: #7E8EC285;
+	margin: 23px;
+	outline: 1px solid green;
+	padding: 8px;
+	height: 230px;
+	font-size: 27px;
+	text-align: center;
+	border-radius: 4px;
+	max-width: 207px;
+}
+#panel input{
+	color: blue;
+	height: 40px;
+	width: 40px;
+	border-radius: 34px;
+	font-size: 9px;
+	outline: 1px solid royalblue;
+	border: none;
+	background: wheat;
+}
+#panel input:focus{
+	width: 48%;
+	border-radius: 3px;
+	font-size: 18px;
+	position: fixed;
+	margin-top: -242px;
+	place-self: center;
+}
+#panel #searchbutton{
+	font-size: 19px;
+	padding: 6px;
+	border-radius: 6px;
+	border: none;
+	display: block;
+	background: #40528FD4;
+	
+}
+#panel #searchbutton:focus{
+	width: 80%;
+	border-radius: 3px;
+}
+#panel button[type="save"]{
+	background: lightcyan;
+	font-size: 19px;
+	padding: 4px;
+	border-radius: 4px;
+}
+#content #vision{
+	outline: 2px solid #C2CEF7BD;
+	padding: 12px;
+	background: #C2CEF7BD;
+	border-radius: 4px;
+	padding-bottom: -90px;
+}
+#vision h6{
+	margin-top: -7px;
+	text-decoration: none;
+	color: darkblue;
+}
+#vision blockquote{
+	font-size: 21px;
+}
+#contactable tc{
+	outline-left: 1.5px solid green;
+}
+#content #contactdetails{
+	background: #779594A6;
+	margin-bottom: -1px;
+	margin-top: 9px;
+	margin-left: -1px;
+	margin-right: -2px;
+	
+	border-radius: 2px;
+	font-size: 19px;
+	padding: 12px;
+}
+#content #effectimg{
+	background-size: cover;
+	width: 80%;
+	margin: 20px;
+	
+}
+#comtent #counimg{
+	width: 50%;
+	margin: 20px;
+}
+}
