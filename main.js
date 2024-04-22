@@ -11,3 +11,4 @@ ter
 document.getElementById("printButton").addEventListener("click", function() {
 	window.print();
 });
+window.alert("welcom to zero drug adicors")
